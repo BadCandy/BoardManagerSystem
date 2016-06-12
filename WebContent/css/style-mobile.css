@@ -1,0 +1,120 @@
+body {
+	font-size: 12pt;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+}
+
+section {
+	padding-bottom: 2em;
+}
+
+#header_container {
+}
+
+#header h1 a { 
+  font: normal 120% 'News Cycle', arial, sans-serif;
+}
+
+#header h2 { 
+  font: normal 80% 'News Cycle', arial, sans-serif;
+}
+
+.container {
+	padding: 0 1em 0 1em;
+}
+
+.button {
+	display: block;
+	font-size: 1.25em;
+	padding: 0.65em 0 0.65em 0;
+	width: 100%;
+}
+
+#header {
+	text-align: center;
+}
+
+.main_content {
+	background: #FFF;
+	padding: 1em 1em 1em 1em;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border: 7px 7px 7px 7px; 
+	-moz-box-shadow: rgba(0, 0, 0, 0.5)  0px 3px 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;	
+	text-align: center;
+}
+
+.main_content h1, .main_content h2 {
+	font-size: 200%;
+}
+
+#sidebar {
+    margin: 2em 0em;
+    background: #FFF;
+	padding: 1em 1em 1em 1em;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border: 7px 7px 7px 7px; 
+	-moz-box-shadow: rgba(0, 0, 0, 0.5)  0px 3px 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;	
+}
+
+#sidebar {
+	text-align: center;
+}
+
+#sidebar h3{
+	text-decoration: underline;
+}
+
+#sidebar_right {
+    margin: 0em;
+    background: #FFF;
+	padding: 1em 1em 1em 1em;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border: 7px 7px 7px 7px; 
+	-moz-box-shadow: rgba(0, 0, 0, 0.5)  0px 3px 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;	
+}
+
+/* Banner */
+
+#banner {
+	margin: 2em 0 0 0;
+}
+
+#banner a img{
+	width: 100%;
+	display: block;
+}
+
+footer {
+    padding: 3em 0 2em 0;
+}
+
+.form_settings input, .form_settings textarea {
+	width: 15em; 
+}
+
+.form_settings .submit { 
+	width: 6em; 
+	margin: 0 0 0 8em; 
+	height: 2em;
+	cursor: pointer; 
+	border-radius: 5px;
+	color: #FFF;
+}
